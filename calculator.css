@@ -1,7 +1,7 @@
 body {
 	font-family: helvetica, arial, sans-serif; margin: 16px;
 }
-#calculator { background: #ccc; padding: 16px; width: 462px; text-align: center; border: 3px solid black}
+#calculator { background: #ccc; margin: auto; padding: 16px; width: 462px; text-align: center; border: 3px solid black}
 
 #calculator h1 { font-size: large; font-family: helvetica, arial, sans-serif; }
 
@@ -23,4 +23,17 @@ label {
 #settings {
 	border: 1px solid black;
 	padding: 10px;
+}
+
+ul {
+	font-weight: bold;
+}
+
+ul ul {
+	list-style: circle;
+	font-weight: normal
+}
+
+ul ul ul{
+	list-style: square;
 }

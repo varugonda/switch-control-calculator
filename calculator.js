@@ -92,22 +92,22 @@ function clickSelectedItem() {
 // this function responds to user key presses
 // you'll rewrite this to control your interface using some number of keys
 $(document).keydown(function(event) {
-	if (event.keyCode == 100){
+	if (event.keyCode == 65 || event.keyCode == 37){
 		selectPrevious();
 	}
-	else if(event.keyCode == 104){
+	else if(event.keyCode == 87 || event.keyCode == 38){
 		selectUp();
 	}
-	else if(event.keyCode == 102){
+	else if(event.keyCode == 68 || event.keyCode == 39){
 		selectNext();
 	}
-	else if(event.keyCode == 98){
+	else if(event.keyCode == 83 || event.keyCode == 40){
 		selectDown();
 	}
 	else if(event.keyCode == 13){
 		clickSelectedItem();
 	}
-	//console.log(event.keyCode)
+	console.log(event.keyCode)
 })
 
 
